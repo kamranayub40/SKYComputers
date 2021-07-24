@@ -1,0 +1,265 @@
+.header{
+    background-color: rgb(71, 80, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.header1{
+    /* background-color: rgb(71, 80, 80); */
+    display: flex;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-decoration: none; */
+
+ 
+}
+.header1 h4{
+    padding-left: 16px;
+    margin-top: 16px;
+}
+.header1 h3{
+    padding-left: 20px;
+    margin-top: 16px;
+}
+.header1Text{
+    display: flex;
+    padding-left: 50px;
+}
+
+.headerName{
+    margin-left: 8px;
+    /* color: rgb(98, 98, 209); */
+    
+    
+}
+.headernav:hover{
+    color:red
+}
+
+.headernav{
+    /* background-color: rgb(71, 80, 80); */
+    /* display: flex; */
+    /* margin-left: 90px; */
+    /* color: black; */
+/* background-color: blue; */
+/* color: white; */
+    
+ 
+}
+.Navbar{
+    justify-content: center;
+    text-align: center;
+
+}
+.course{
+    display:flex;
+    justify-content: center;
+    padding-left: 5px;
+}
+.headernav Nav.Link{ 
+    color: black;
+}
+.HeaderText{
+    color: rgb(211, 197, 197);
+    font-size: 15px;
+    /* padding: auto; */
+   /* font-size: 14px; */
+    /* -ms-flex-direction: row; */
+
+    /* text-align: end; */
+}
+.logo{
+    padding-right: 50;
+   font-size: 30;
+   color: rgb(204, 128, 53);
+   text-decoration: none;
+
+
+}
+.headernavText{
+    text-indent: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+A:hover{
+    color: rgb(219, 85, 85);
+}
+.admitiontitle{
+    justify-content: center;
+    text-align: center;
+    color: rgb(241, 228, 219);
+    background-color: chocolate;
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inputAdd{
+    /* text-decoration: none; */
+    width: 600px;
+    height:40px;
+    border-radius: 30px;
+    bottom: 10px;
+    
+}
+.navButton:hover{
+
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+}
+.navButton:hover{
+    color: white;
+}
+.NewsFeed{
+    background-color: blue;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    bottom: 10px;
+    /* padding-top: 20px; */
+}
+.courses{
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px;
+    bottom: 40px;
+}
+.coursesImg{
+    margin-left: 300px;
+    display: flex;
+    padding-left: 30px;
+    
+
+
+}
+.oursesImgText{
+    border-width:thick;
+}
+.courseduration{
+    display: flex;
+}
+.card{
+    margin-bottom: 10px;
+}
+.Achievment{
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px;
+    bottom: 40px;
+    background-image: linear-gradient(to right, rgb(224, 127, 203),rgb(114, 153, 211),purple,purple,purple,indigo,purple);
+    color: whitesmoke;
+}
+.AchievText{
+    color: gold;
+}
+.coursedurationText{
+    color: goldenrod;
+}
+.galleryHeader{
+    justify-content: center;
+    text-align: center;
+}
+.HeaderName h1{
+    color: rgb(211, 173, 76);
+}
+.HeaderName{
+    display: flex;
+    
+
+}
+.HeaderName h2{
+    padding-left: 6px;
+}
+.nav1{
+    margin-left: 330;
+}
+.AbouHeader{
+    background-color: orange;
+    height: 90px;
+}
+.diHeader{
+    background-color: #ffa500;
+    height: auto;
+    width: auto;
+   
+  /* justify-content: space-between; */
+    /* position: absolute; */
+    /* position: fixed; */
+    /* float: left; */
+}
+.diHeaderText{
+    margin-left: 100px;
+    color: white;
+    padding-top: 20px;
+}
+.diHeadersubText{
+    margin-left: 100px;
+    color: white;
+    padding-top: 20px;
+    align-items: 'baseline';
+}
+.AbouHeaderText{
+    margin-left: 100px;
+    text-shadow: 30px;
+    color: white;
+    padding-top: 20px;
+}
+.aboutTitle{
+   margin-left: 40px;
+   padding-top: 50px;
+}
+@media only screen and (max-width: 30px) {
+
+   p { 
+       font-size: 2em; 
+    }
+ 
+ } 
+ body {
+    min-height: 100vh;
+    min-width: 70vh;
+
+}
+ .affiliation{
+    color: #ffffff;
+    width: 90px;
+    /* padding: 10px 0px 10px 0px; */
+    /* text-align: center; */
+    border-top: 3px solid #b99c1b;
+ }
+ .semesterOne{
+     border-width: 2px solid;
+     background-color: rgb(209, 202, 202);
+    display: flex;
+    }
+ .semDetail{
+    /* color: #ffffff; */
+    width:'40%';
+    /* padding: 10px 0px 10px 0px; */
+    /* text-align: center; */
+    border-bottom: 1px solid #4e4d47;
+ }
+ .semMain{
+     border-width: 2 solid #444;
+ }
+ .subsemesterOne{
+     border-width: 4px solid;
+     background-color: orange;
+     border-top-left-radius: 20rem;
+     /* border-end-start-radius: 20rem; */
+     /* padding-left: inherit;
+      */
+      /* padding-left: 50; */
+ }
+ .ScholerTitle{
+     text-align: center;
+     justify-content: center;
+ }
